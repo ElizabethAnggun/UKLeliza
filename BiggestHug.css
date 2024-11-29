@@ -1,0 +1,83 @@
+@import url('https://fonts.google.com/share?selection.family=Concert+One|Sour+Gummy:ital,wght@0,100..900;1,100..900');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+section {
+    padding: 2rem 9%;
+}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    background-color: rgb(255, 222, 228); height: 8%;
+}
+header .logo {
+    position: relative;
+    max-width: 120px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+.nav_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.link a {
+    text-decoration: none;
+    font-weight: 600;
+    color: indianred;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.link a:hover {
+    color: white;
+}
+.login {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: indianred;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: pink;height: 40px;
+}
+.login:hover {
+    background-color:white
+}
+.login span { 
+    padding: 5px 8px;
+    font-size: 1.5rem;
+    background-color: rgb(255, 222, 228);height: 35px;
+    border-radius: 100%;
+}
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Concert One", sans-serif;;
+    background-image: url("bghome4.png");
+    background-position: center;
+    background-size: cover;
+} 
+.home .content {
+    max-width: 50 rem;
+}

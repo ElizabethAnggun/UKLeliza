@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Hi I'am Bleki!<br>I'ts<span> Pet Shop</span></h2>
+                <p>Hello everyone! Terima kasih sudah mampir di web store kami, 
+                    di sini kami menyediakan berbagai macam kebutuhan untuk anabul anda. 
+                    Kami hadir untuk penawaran yang lebih besar. 
+                    dapatkan promo cashback Rp50 ribu untuk setiap pembelian produk seharga minimal Rp300 ribu. 
+                    Kamu tahu apa yang menjadi kebanggaan kami? Yaitu kepuasan Anda!</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="Bleki.png" class="petshop">
+            </div>
+        </div>
+        <ul class="dog">
+            <li><img src="Bleki.png" onclick ="imgSlider('Bleki.png')"></li>
+            <li><img src="Bleki2.png" onclick ="imgSlider('Bleki2.png')"></li>
+            <li><img src="Bleki3.png" onclick ="imgSlider('Bleki3.png')"></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.petshop').src = anything;
+        }
+    </script>
+</body>
+</html>
