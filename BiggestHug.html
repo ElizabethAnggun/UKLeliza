@@ -10,39 +10,223 @@
     <link rel="stylesheet" href="BiggestHug.css">
 </head>
 <body>
-<!--header section-->
-    <header class="header">
-        <a href="#"><img src="logoBiggesthug.png" class="logo"></a>
-        <nav>
-            <ul class="nav_links">
-                <li class="link"><a href="#home">Home</a></li>
-                <li class="link"><a href="#adopt">Adopt</a></li>
-                <li class="link"><a href="#information">Information</a></li>
-                <li class="link"><a href="#tips-&-trick">Tips & Trick</a></li>
-                <li class="link"><a href="#about-us">About Us</a></li>
-                <li class="link"><a href="#contact-us">Contact Us</a></li>
-            </ul>
-            <div class="login">
-                <span><i class="ri-user-5-fill"></i></span>
-                Sign Up
+    <nav>
+        <div class="nav_logo"> <!--navbar logo-->
+            <a href="#"><img src="logoBiggesthug.png" class="logo"></a>
+        </div>
+        <ul class="nav_links"> <!--navbar link-->
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#adopt">Adopt</a></li>
+            <li class="link"><a href="#information">Information</a></li>
+            <li class="link"><a href="#about-us">About Us</a></li>
+        </ul>
+        <button class="btn">Sign In</button>
+    </nav>
+    <!--header-->
+    <header>
+        <div class="section_container header_container">
+            <div class="header_image">
+                <img src="pexels-tranmautritam-245035.jpg" alt="header">
+                <img src="pexels-pixabay-220938 (1).jpg" alt="header">
             </div>
-        </nav>
+            <div class="header_content">
+                <div>
+                    <p class="sub_header">Hi Friends</p>
+                    <h1>GIVE YOUR LOVE!</h1>
+                    <p class="section_subtitle">
+                        Temukan teman sejati Anda di sini!
+                        Kami menyediakan layanan adopsi anjing yang aman dan terpercaya,
+                        membantu Anda menemukan anjing yang cocok untuk menjadi bagian dari keluarga Anda. 
+                        Setiap anjing yang kami adopsi telah diperiksa kesehatannya dan 
+                        siap untuk memberikan kebahagiaan di rumah Anda.
+                    </p>
+                    <div class="action_btns">
+                        <button class="btn">Join Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-<!--section home-->
-    <section class="home" id="home">
-        <div class="content">
-            <h1>GIVE <br> YOUR <br>LOVE!</h1>
-            <span>selamatkan Mereka & Beri Kasih Sayang</span>
-            <p>
-                Temukan teman sejati Anda di sini!
-                Kami menyediakan layanan adopsi anjing yang aman dan terpercaya,
-                membantu Anda menemukan anjing yang cocok untuk menjadi bagian dari keluarga Anda. 
-                Setiap anjing yang kami adopsi telah diperiksa kesehatannya dan 
-                siap untuk memberikan kebahagiaan di rumah Anda.
-            </p>
-            <a href="#" class="btn">Sign Up</a>
+    <section class="section_container login_container">
+        <div class="login">
+            <form action="">
+                <h1>Sign In</h1>
+                <div class="input_box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="ri-user-fill"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="ri-lock-fill"></i>
+                </div>
+                <div class="remember_forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn_login">Login</button>
+                <div class="register_link">
+                    <p>Don't have an account?<a href="#">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="section_container adopt_container" id="adopt">
+        <div class="section_header">
+            <div>
+                <h2 class="section_title">Biggest Hug Family</h2>
+                <p class="section_subtitle">
+                    Cari Kesayangan Anda!
+                </p>
+            </div>
+            <div class="adopt_nav">
+                <span><i class="ri-arrow-left-wide-line"></i></i></span>
+                <span><i class="ri-arrow-right-wide-line"></i>
+            </div>
+        </div>
+        <div class="adopt_grid">
+            <div class="adopt_card">
+                <img src="Samoyed.jpeg" alt="Adopt">
+                <div class="adopt_details">
+                    <p class="adopt_title">Hazel</p>
+                    <p class="adopt_subtitle">Samoyed</p>
+                </div>
+            </div>
+            <div class="adopt_card">
+                <img src="dobeman.jpeg" alt="Adopt">
+                <div class="adopt_details">
+                    <p class="adopt_title">Bombom</p>
+                    <p class="adopt_subtitle">Doberman</p>
+                </div>
+            </div>
+            <div class="adopt_card">
+                <img src="poodle.jpeg" alt="Adopt">
+                <div class="adopt_details">
+                    <p class="adopt_title">Molly</p>
+                    <p class="adopt_subtitle">Poodle</p>
+                </div>
+            </div> <div class="adopt_card">
+                <img src="goldenretriever.jpeg" alt="Adopt">
+                <div class="adopt_details">
+                    <p class="adopt_title">Chiki</p>
+                    <p class="adopt_subtitle">Golden Retriever</p>
+                </div>
+            </div>
 
         </div>
     </section>
+    <section class="information" id="information">
+        <div class="section_container information_container">
+            <h2 class="section_title">Adopt Information</h2>
+            <p class="section_subtitle">
+                Pemberitahuan Anjing Yang Membutuhkan Tuan
+            </p>
+        </div>
+        <div class="information_grid">
+            <div class="information_card">
+                <img src="puppy-1903313_640.jpg" alt="information">
+                <div class="information_details">
+                    <p>Bleki, Kintamani Jantan</p>
+                    <div class="rating"><i class="ri-star-fill"></i>4.2</div>
+                    <div class="booking_price">
+                        <div class="price"><span>From</span> Rp30000</div>
+                        <button class="book_now">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="information_card">
+                <img src="puppy-1903313_640.jpg" alt="information">
+                <div class="information_details">
+                    <p>Bleki, Kintamani Jantan</p>
+                    <div class="rating"><i class="ri-star-fill"></i>4.2</div>
+                    <div class="booking_price">
+                        <div class="price"><span>From</span> Rp30000</div>
+                        <button class="book_now">Book Now</button>
+                    </div>
+                </div>
+            </div> <div class="information_card">
+                <img src="puppy-1903313_640.jpg" alt="information">
+                <div class="information_details">
+                    <p>Bleki, Kintamani Jantan</p>
+                    <div class="rating"><i class="ri-star-fill"></i>4.2</div>
+                    <div class="booking_price">
+                        <div class="price"><span>From</span> Rp30000</div>
+                        <button class="book_now">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view_all">
+                <button class="btn">View All</button>
+            </div>
+        </div>
+    </section>
+    <section class="gallary" id="about-us">
+        <div class="section_container gallary_container">
+            <div class="image_gallary">
+                <div class="gallary_col">
+                    <img src="puppy-1903313_640.jpg" alt="gallary">
+                </div>
+                <div class="gallary_col">
+                    <img src="puppy-1903313_640.jpg" alt="gallary">
+                    <img src="puppy-1903313_640.jpg" alt="gallary">
+                </div>
+            </div>
+            <div class="gallary_content">
+                <div>
+                    <h2 class="section_title">
+                        About Biggest Hug
+                    </h2>
+                    <p class="section_subtitle">
+                        Kami Akan Selalu Ada Disini!
+                    </p>
+                    <button class="btn">View All</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="section_container subscribe_container">
+              <div class="subscribe_content">
+                <h2 class="section_title">jangan lupa subscribe</h2>
+                <p class="section_subtitle">
+                    explore your suitable and dream
+                </p>
+              </div>
+              <div class="subscribe_form">
+                <form>
+                    <input type="email" placeholder="Your email here">
+                    <button class="btn" type="submit">Send</button>
+                </form>
+              </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="section_container subscribe_container">
+            <div class="footer_col">
+                <h3>pathway<span>.</span></h3>
+                <p>
+                    explore your suitable and dream
+                </p>
+            </div>
+            <div class="footer_col">
+                <h4>Support</h4>
+                <p>FAQs</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer_col">
+                <h4>Adderss</h4>
+                <p>
+                    <span>Address:</span> 280 Wilsoncima, united states
+                </p>
+                <p><span>email:</span>info@pathway.com</p>
+                <p><span>Phone:</span>+62 895387490033</p>
+            </div>
+        </div>
+        <div class="footer_bar">
+            Copyright &copy;2024 Web Jasa adopsi Anjing
+        </div>
+    </footer>
 </body>
 </html>
